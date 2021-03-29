@@ -12,7 +12,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.generic {
+  padding: 100px 0;
+}
 #hero .container {
   height: 50vh;
 }
