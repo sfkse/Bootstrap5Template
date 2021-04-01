@@ -14,6 +14,7 @@ body {
 }
 .generic {
   padding: 100px 0;
+  margin: 3rem auto;
 }
 #hero .container {
   height: 50vh;
@@ -57,4 +58,12 @@ section#latest .latest-item .overlay {
 section#latest .latest-item:hover .overlay {
   opacity: 1;
   background-color: rgba(189, 0, 0, 0.9);
+}
+.dark-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../img/main_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
